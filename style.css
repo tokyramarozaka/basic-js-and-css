@@ -1,0 +1,32 @@
+*{
+    margin :0 ;
+    padding : 0; 
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+body > div {
+    border: solid 1px black;
+    height : 100vh;
+    background-color: rgb(53, 167, 171);
+}
+
+body > div p{
+    padding: 2rem;
+    color: aliceblue;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.left, .right{
+    flex-basis : 20%;
+}
+
+.middle{
+    flex-basis: 40%;
+}

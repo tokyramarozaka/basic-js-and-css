@@ -1,0 +1,13 @@
+1. Revisez la syntaxe et le 
+principe de : 
+- createElement:créer un element
+- appendChild:ajouter un enfant
+- .remove() : effacer
+- .classList.add : ajouter class
+- .classList.remove:retirer class
+- setInterval(function,time)
+"Faire une fonction tous les 
+X millisecondes"
+- window.getComputedStyle
+"Recupérer le style actuel 
+d'un élément"
